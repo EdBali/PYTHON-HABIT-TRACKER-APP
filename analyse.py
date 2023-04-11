@@ -9,7 +9,6 @@ def get_all_habits(habit_store):
     """
     # Get a list of all habit names and corresponding Habit objects
     habit_names = [(habit_name,habit) for habit_name, habit in habit_store.habits.items()]
-    
     # Print a header for the list of habits
     print("")
     print("-----List of habits-------")
