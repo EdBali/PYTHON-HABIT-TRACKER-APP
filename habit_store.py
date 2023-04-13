@@ -223,9 +223,5 @@ class HabitStore:
         return self.streaks[name]
 
 
-# HabitStore().add_habit("code","daily")
-# HabitStore().add_habit("workout","daily")
-habit_names = [habit_name for habit_name, habit in HabitStore().habits.items()]
-print(HabitStore().get_habit("prayer"))
 
     
